@@ -103,3 +103,31 @@ startswith, endswith, find, findall, index, count
 
 # count = 43
 # print(f'|{count:5d}')
+
+# from string import Template
+# greeting = Template('$hello Mark Anthony')
+# greeting.substitute(hello = 'Bonjour')
+# print(greeting.substitute(hello = 'Bonjour'))
+
+## dictionary
+kv_list = {'k1': 'v1', 'k2': 'v2'}
+# print(dict}(kv_list))
+# if 'k4' in kv_list:
+# 	print('k4 exists')
+# else:
+# 	print('k4 does not exist')
+# dict(kv_list).get('k1', 'default value')
+# print(dict(kv_list).get('k4', 'default value'))
+# del(kv_list['k1'])
+# print(kv_list)
+# print(kv_list.keys())
+# print(kv_list.values())
+# letters = 'abcdefghijklmnopqrstuvwxyz'
+# cap_map = {x:x.upper() for x in letters}
+# print(cap_map)
+
+## function
+# def add(x, y):
+# 	return x + y
+# print(add(1, 2))
+
